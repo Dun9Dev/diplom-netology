@@ -1,7 +1,4 @@
-# Дипломная работа: DevOps-инфраструктура в Yandex.Cloud
-
-**Студент:** Dun9Dev  
-**Дата:** 2026
+# Дипломная работа: DevOps-инфраструктура в Yandex.Cloud - Выполнил Shestovskikh Daniil
 
 ---
 
