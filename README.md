@@ -50,7 +50,7 @@ resource "yandex_vpc_subnet" "public_a" {
 - Managed Kubernetes cluster (региональный мастер)
 - Node group (прерываемые ВМ, автоскейлинг 2→4)
 
-()[!https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_215636.png]
+[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_215636.png]
 
 ---
 
