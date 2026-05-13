@@ -50,7 +50,7 @@ resource "yandex_vpc_subnet" "public_a" {
 - Managed Kubernetes cluster (региональный мастер)
 - Node group (прерываемые ВМ, автоскейлинг 2→4)
 
-[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_215636.png]
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_215636.png)
 
 ---
 
@@ -104,7 +104,7 @@ resource "yandex_kubernetes_node_group" "diploma_nodes" {
 ```
 
 Результат:
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_230525.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_230525.png)
 
 ---
 
@@ -134,7 +134,7 @@ docker build -t cr.yandex/crpvtth2thuc5g5660q5/diplom-app:v1.0.0 .
 docker push cr.yandex/crpvtth2thuc5g5660q5/diplom-app:v1.0.0
 ```
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_230724.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_230724.png)
 
 ---
 
@@ -166,11 +166,11 @@ kubectl port-forward svc/monitoring-grafana 3000:80
 kubectl get secret monitoring-grafana -o jsonpath="{.data.admin-password}" | base64 -d ; echo
 ```
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_231121.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_231121.png)
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_221440.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_221440.png)
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_221502.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_221502.png)
 
 **Деплой приложения в кластер:**
 
@@ -179,7 +179,7 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_231417.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_231417.png)
 
 
 Приложение доступно по адресу: **http://111.88.153.34**
@@ -226,11 +226,11 @@ jobs:
 - `YC_TOKEN` — OAuth токен Yandex Cloud
 - `KUBE_CONFIG` — статический kubeconfig для доступа к кластеру
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_224203.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_224203.png)
 
 **Результат обновления приложения:**
 
-*[https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_224426.png]*
+![](https://github.com/Dun9Dev/diplom-netology/blob/main/img/Screenshot_20260513_224426.png)
 
 ---
 
